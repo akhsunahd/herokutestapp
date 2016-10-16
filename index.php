@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
@@ -189,13 +188,5 @@ s
 
     </div>
     
-=======
-<html lang="en">
-
-
-
-
-<h1> APP is Working </h1>
->>>>>>> fc456fffafc9a1dc41e9fc89bc7385698ea8ec8c
-
+</body>
 </html>
