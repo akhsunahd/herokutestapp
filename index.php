@@ -47,19 +47,19 @@
 
 <ul class="nav pull-right">
     <li id="navHome" class="">
-      <a href="index.html">HOME</a>
+      <a href="index.php">HOME</a>
     </li>
    
 
     
 
     <li id="navPricing" class="">
-        <a href="Products.html">PRODUCTS</a>
+        <a href="Products.php">PRODUCTS</a>
     </li>
 
    
     <li id="navContact" class="">
-        <a href="Contact.html">CONTACT</a>
+        <a href="Contact.php">CONTACT</a>
     </li>
    
 </ul>
@@ -173,7 +173,7 @@
                 
                 
                     
-                    <li> <a href="https://www.jedara.com/Contact">Contact Us</a> </li>
+                    <li> <a href="https://testappdanu.herokuapp.com/Contact.php">Contact Us</a> </li>
     
                 </ul>
 
