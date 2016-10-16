@@ -5,7 +5,6 @@
     <link rel="shortcut icon" href="images/jdr-logo.png">
     <title>JEDARA Imports and Exports </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-s
     <meta name="keywords">
     <meta name="author" content="">
     
