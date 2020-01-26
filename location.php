@@ -19,11 +19,11 @@
     echo "location ln val= ";
     echo $_GET["ln"];
 
-/*
+
 
 	$sql =<<<EOF
 	INSERT INTO T_LOCATION(USER_ID,LATITUDE,LONGITUDE)
-	VALUES (1, 3.9982,7.882);
+	VALUES (1,$_GET["lt"],$_GET["ln"]);
 
 
 EOF;
@@ -35,6 +35,6 @@ EOF;
       echo "Records created successfully\n";
    }
    pg_close($db);
-   */
+   
 
 ?>
