@@ -12,4 +12,19 @@
       echo "Opened database successfully\n";
    }
 
+
+    $sql =<<<EOF
+      INSERT INTO t_location (user_id,latitude,longitude)
+      VALUES (1, $_GET['lt'],$_GET['ln']);
+
+EOF;
+
+   $ret = pg_query($db, $sql);
+   if(!$ret) {
+      echo pg_last_error($db);
+   } else {
+      echo "Records created successfully\n";
+   }
+   pg_close($db)
+
 ?>
