@@ -18,12 +18,23 @@
 
     echo "location ln val= ";
     echo $_GET["ln"];
+    echo "\n";
+
+	$ltFloatVal = floatval($_GET["lt"]);
+	$lnFloatVal = floatval($_GET["ln"]);
 
 
+    echo "location lt formatted val= ";
+    echo $ltFloatVal;
+    echo "\n";
+
+    echo "location ln formatted val= ";
+    echo $lnFloatVal;
+    echo "\n";
 
 	$sql =<<<EOF
 	INSERT INTO T_LOCATION(USER_ID,LATITUDE,LONGITUDE)
-	VALUES (1,$_GET["lt"],$_GET["ln"]);
+	VALUES (1,$ltFloatVal,$lnFloatVal);
 
 
 EOF;
