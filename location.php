@@ -12,7 +12,7 @@
       echo "Opened database successfully\n";
    }
 
-
+/*
     $sql =<<<EOF
       INSERT INTO t_location (user_id,latitude,longitude)
       VALUES (1, $_GET['lt'],$_GET['ln']);
@@ -26,5 +26,5 @@ EOF;
       echo "Records created successfully\n";
    }
    pg_close($db)
-
+*/
 ?>
